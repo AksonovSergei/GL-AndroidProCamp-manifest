@@ -74,7 +74,7 @@
   <project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
   <project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
   <project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
-  <project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
+  <project path="device/linaro/hikey" remote="gl" name="GL-AndroidProCamp-device-linaro-hikey" revision="android-9.0.0_r35-hikey960-gl" groups="device,hikey,pdk,gl" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
